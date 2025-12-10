@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f2f3f7;
+    padding: 40px 0;
+    color: #333;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 768px; 
+    margin: auto;
+}
+
+
+.blog-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #111;
+}
+
+
+.section-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+    
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.section-card h2 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.section-card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+
+.columns {
+    width: 100%;
+}
+
+
+.left-column {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.right-column {
+    width: 48%;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 4%;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .left-column,
+    .right-column {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+}
